@@ -1,0 +1,10 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+.card {
+  border: 1px solid $border-color;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  @include box-shadow;
+}

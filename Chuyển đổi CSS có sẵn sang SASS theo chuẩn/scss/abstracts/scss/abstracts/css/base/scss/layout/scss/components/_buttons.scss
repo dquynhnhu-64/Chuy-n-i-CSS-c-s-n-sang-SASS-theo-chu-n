@@ -1,0 +1,5 @@
+@import '../abstracts/mixins';
+
+.button {
+  @include button-style($primary-color);
+}
